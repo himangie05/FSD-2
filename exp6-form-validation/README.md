@@ -1,16 +1,68 @@
-# React + Vite
+Experiment–6
+MUI Form Handling & Validation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Submission Date: 05th Feb, 2026
+Student Name: Himangi Bhatt
+UID: 23BCC70020
 
-Currently, two official plugins are available:
+🎯 Objective
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To design a responsive frontend form using Material UI (MUI) components and implement robust client-side form validation to ensure accurate and user-friendly data input.
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Framework: React (Vite)
 
-## Expanding the ESLint configuration
+UI Library: Material UI (MUI)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Components Used
+
+TextField
+
+Checkbox
+
+Radio Buttons
+
+Button
+
+Box
+
+Container
+
+✅ Validations Implemented
+
+Name Field Validation
+
+Ensures the field is not left empty before submission.
+
+Email Field Validation
+
+Uses a Regex pattern (/.+@.+..+/) to validate proper email format.
+
+Terms & Conditions Validation
+
+Submission is allowed only if the checkbox is selected.
+
+Gender Selection Validation
+
+Uses radio buttons to ensure a single-option selection.
+
+▶️ How to Run the Project
+
+Install dependencies
+
+npm install
+
+
+Start the development server
+
+npm run dev
+
+
+Build the project (generates the dist folder)
+
+npm run build
+
+📌 Outcome
+
+The form successfully validates user inputs in real time using Material UI components, ensuring better data integrity, responsiveness, and an improved user experience.
