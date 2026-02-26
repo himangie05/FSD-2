@@ -3,6 +3,7 @@ from flask import Blueprint, request, jsonify
 # Explanation of the code structure and functionality:
 
 # This code defines a set of routes for managing student data in a Flask application. 
+
 # The `student_bp` Blueprint is created to group all student-related routes together.
 # The routes include:
 # - `create_student`: A POST route to create a new student. It expects a JSON payload with the student's name and optionally their age. It returns the created student object with a unique ID.
