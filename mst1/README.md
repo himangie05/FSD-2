@@ -25,3 +25,35 @@ Clone the repository and install dependencies:
 git clone <your-repo-url>
 cd mst1
 npm install
+
+### 2. Run the App
+Start the development server:
+
+Bash
+npm start
+The app will be available at http://localhost:3000.
+
+📦 Build & Deployment
+Create a Production Build
+To minify and optimize the app for production:
+
+Bash
+npm run build
+Deploying to GitHub Pages
+Install the package: npm install gh-pages --save-dev
+
+Add the deploy script to package.json:
+"deploy": "gh-pages -d build"
+
+Run: npm run deploy
+
+📝 Validation Logic
+Email: Checked against /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+
+Password: Verified using .length >= 6
+
+Developed by: Himangi Bhatt
+
+UID: 23BCC70020
+
+Course: B.E. (Hons) Cloud Computing
